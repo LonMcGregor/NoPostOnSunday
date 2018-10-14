@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+    "name": "No Post on Sunday",
+    "version": "1.0.0",
+    "author": "Léon McGregor",
+    "description": "There's no post on sunday. This blocks the POST request on sunday.",
+    "homepage_url": "https://github.com/LonMcGregor/NoPostOnSunday",
+
+    "applications": {
+        "gecko": {
+            "id": "{29ff373b-3e69-4e00-8b43-4b347c54c106}",
+            "strict_min_version": "45.0"
+        }
+    },
+
+    "icons": {
+        "16": "16.png",
+        "48": "48.png",
+        "128": "128.png",
+        "256": "256.png"
+    },
+
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    }
+}

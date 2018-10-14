@@ -1,0 +1,19 @@
+{
+  "name": "nopostonsunday",
+  "version": "1.0.0",
+  "description": "This web extension blocks POST on sundays",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LonMcGregor/NoPostOnSunday.git"
+  },
+  "scripts": {
+    "fx": "cd src && C:\\PROGRA~1\\7-Zip\\7z.exe a ..\\NoPostSunday.xpi *"
+  },
+  "author": "Leon McGregor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LonMcGregor/NoPostOnSunday/issues"
+  },
+  "homepage": "https://github.com/LonMcGregor/NoPostOnSunday#readme"
+}
